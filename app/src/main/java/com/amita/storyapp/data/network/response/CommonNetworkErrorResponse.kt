@@ -1,0 +1,12 @@
+package com.amita.storyapp.data.network.response
+
+import com.google.gson.annotations.SerializedName
+
+data class CommonNetworkErrorResponse(
+
+	@field:SerializedName("error")
+	val error: Boolean? = null,
+
+	@field:SerializedName("message")
+	val message: String? = null
+)
